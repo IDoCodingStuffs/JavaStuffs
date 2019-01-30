@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/servletstuffs_ear_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="servletstuffs/javaeeApplication/javaEEApplication" />
+      <element id="javaee-facet-resources" facet="servletstuffs/web/Web" />
     </root>
   </artifact>
 </component>
