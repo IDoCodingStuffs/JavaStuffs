@@ -5,116 +5,36 @@ some of the highlights while specific branches showcase implementations grouped 
 
 ### Showcased Stuffs
 
-This branch showcases implementations using features introduced with Java EE 8, following along _Java
-EE 8 Cookbook_ by Elder Moraes
+This branch showcases some of the highlights of my practice with Java
 
-#### Bean Validation
+#### State Info API
 
- This small recipe showcases bean validation annotations with a User model and some unit tests to
- see the results of adding the said annotations.
+ This is an API built with Spring Boot to retrieve information about a given state or states
+ either through a GET request through an URI endpoint, or a POST request with a query of
+ a given number of states. I built it as part of the coding test that got me my current job
+ as a Java developer.
 
  ```
- @NotBlank
- private String name;
-
- @Email
- private String email;
-
- @NotEmpty
- private List<@PositiveOrZero Integer> profileId;
-```
-
-#### JsfStuffs
-
-This recipe showcases implementing web interfaces using JavaServer Faces. It can be deployed on a server
-like Glassfish to run.
-
-```
-<h:inputText id="userNameEmail"
-             value="#{userBean.user}"
-             converter="userConverter"
-             validator="userValidator" />
-```
-
-#### JsonbStuffs
-
-This recipe showcases two-way conversions between Java and JSON objects using JSON-B
-
-```
- Jsonb jsonb = JsonbBuilder.create();
- String jsonUser = jsonb.toJson(user);
- User u = jsonb.fromJson(jsonUser, User.class);
-```
-
-#### JsonpStuffs
-
-This recipe showcases extracting a given value from a JSON message using the JSON-P API
-
-```
-JsonStructure jsonStructure = jsonReader.read();
-JsonPointer jsonPointer = Json.createPointer("/user/profile");
-JsonValue jsonValue = jsonPointer.getValue(jsonStructure);
-```
-
-#### OrderedObservers
-
-This recipe showcases adding event observers with CDI 2.0 that fire in an ordered fashion.
-
-```
-public void thisEventBefore(
-      @Observes @Priority(Interceptor.Priority.APPLICATION - 200)
-      StuffsEvent event
-  ){
-    System.out.println("thisEventBefore: " + event.getVal());
-  }
-```
-
-#### SecurityAPI
-
-This recipe showcases programmatically added user authorization for access to certain functionality.
-
-```
-@RolesAllowed({Roles.ADMIN, Roles.OPERATOR})
-public void add(User user) {
-  entityManager.persist(user);
-}
-
-@RolesAllowed({Roles.ADMIN})
-public void remove(User user) {
-  entityManager.remove(user);
-}
-
-@PermitAll
-public List<User> get() {
-  Query query = entityManager.createQuery("SELECT u FROM User as u");
-  return query.getResultList();
-}
-
-```
-
-#### ServerSentEvent_JAX-RS
-
-This recipe showcases a simple JAX-RS implementation with a mock server periodically sending messages through
-server-side events, which are one-way channels to the client, and a client consumer that receives them.
-
-```
-@GET
-@Produces(MediaType.SERVER_SENT_EVENTS)
-public void getMQ(@Context SseEventSink sink) {
-  SseResorce.SINK = sink;
+ @PostMapping(path = "/info/states/get/", consumes = "application/json", produces = "application/json")
+public @ResponseBody
+ResponseEntity<String> searchState(
+        @RequestBody Map<String, List<String>> request) throws Exception {  
+    //Get all of the states if the search query is empty
+    if (request.get("search").isEmpty())
+        return new ResponseEntity<String>(consumer.consumeAll().toString(), HttpStatus.OK);
+    else {
+           List<State> states = consumer.consumeAll().getRestResponse().getStates()
+                .stream()
+                .filter(state -> request.get("search").contains(state.getName()))
+                .collect(Collectors.toList());
+        return new ResponseEntity<String>(states.toString(), HttpStatus.OK);
+    }
 }
 ```
 
-#### ServletStuffs
-
-This recipe showcases a Servlet 4.0 implementation to load an image through Server Push
+##### Example Query
 
 ```
-PushBuilder pushBuilder = request.newPushBuilder();
-
-if (pushBuilder != null) {
-  pushBuilder.path("images/javaee-logo.png")
-     .addHeader("content-type", "image/png")
-     .push();
-}
+> curl -H "Content-type: application/json" -d "{"""search""":["""Alabama""","""California""","""Idaho"""]}" http://localhost:8080/info/states/get/  
+[{"id":1, "country":"USA", "name":"Alabama", "abbreviation":"AL", "area":"135767SKM", "largestCity":"Birmingham", "capital":"Montgomery"}, {"id":5, "country":"USA", "name":"California", "abbreviation":"CA", "area":"423967SKM", "largestCity":"Los Angeles", "capital":"Sacramento"}, {"id":12, "country":"USA", "name":"Idaho", "abbreviation":"ID", "area":"82643SKM", "largestCity":"Boise", "capital":"Boise"}]
 ```

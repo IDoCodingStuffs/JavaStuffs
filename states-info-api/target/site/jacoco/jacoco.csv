@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+hospitality-test,hospitality,Application,0,11,0,0,0,4,0,3,0,3
+hospitality-test,hospitality.schema,Response,0,22,0,0,0,6,0,4,0,4
+hospitality-test,hospitality.schema,State,26,80,0,0,10,14,8,8,8,8
+hospitality-test,hospitality.schema,RestResponse,3,49,0,0,1,10,1,6,1,6
+hospitality-test,hospitality.logic,StateController,0,88,0,6,0,15,0,8,0,5
+hospitality-test,hospitality.logic,Consumer,0,43,0,0,0,8,0,3,0,3
+hospitality-test,hospitality.util,SourceUnavailableException,4,0,0,0,2,0,1,0,1,0
+hospitality-test,hospitality.util,InvalidSearchQueryException,0,4,0,0,0,2,0,1,0,1
+hospitality-test,hospitality.util,SearchResultException,0,4,0,0,0,2,0,1,0,1
