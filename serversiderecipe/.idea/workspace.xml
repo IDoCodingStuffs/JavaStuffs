@@ -7,14 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fad9a7ec-25da-4f1e-9c29-cbe6866b3e44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/serversiderecipe_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/serversiderecipe_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/model/validation/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImplAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/implementation/ImplAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/UserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/classes/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/classes/net/codingstuffs/java/serverside_recipe/user/factory/UserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/classes/net/codingstuffs/java/serverside_recipe/user/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/classes/net/codingstuffs/java/serverside_recipe/user/profile/Profile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/classes/net/codingstuffs/java/serverside_recipe/user/profile/ProfileType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/classes/net/codingstuffs/java/serverside_recipe/user/profile/UserProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/classes/net/codingstuffs/java/serverside_recipe/user/profile/implementation/ImplAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/classes/net/codingstuffs/java/serverside_recipe/user/profile/implementation/ImplOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/classes/net/codingstuffs/java/serverside_recipe/user/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serversiderecipe_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/factory/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/factory/UserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/codingstuffs/java/serverside_recipe/user/factory/UserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/codingstuffs/java/serverside_recipe/user/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/codingstuffs/java/serverside_recipe/user/profile/Profile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/codingstuffs/java/serverside_recipe/user/profile/ProfileType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/codingstuffs/java/serverside_recipe/user/profile/UserProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/codingstuffs/java/serverside_recipe/user/profile/implementation/ImplAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/codingstuffs/java/serverside_recipe/user/profile/implementation/ImplOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/codingstuffs/java/serverside_recipe/user/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,16 +91,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
-          <entry key="JSP" value="3" />
-          <entry key="UML" value="1" />
-          <entry key="XML" value="4" />
+          <entry key="JAVA" value="18" />
+          <entry key="JSP" value="4" />
+          <entry key="UML" value="5" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="43" />
-          <entry key="JSP" value="77" />
+          <entry key="JAVA" value="592" />
+          <entry key="JSP" value="119" />
+          <entry key="XHTML" value="2" />
+          <entry key="XML" value="57" />
         </counts>
       </usages-collector>
     </session>
@@ -87,58 +110,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/result.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="75">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -153,10 +128,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/profile/UserProfile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="method#getUser#0;class#UserService#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/profile/ProfileType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/model/validation/UserValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,6 +174,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/profile/UserProfile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/profile/implementation/ImplAdmin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,10 +222,20 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#</find>
+      <find>$</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$</replace>
+      <replace>#</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -213,7 +252,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/UserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProfileType.java" />
@@ -223,7 +261,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ImplOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/UserService.java" />
         <option value="$PROJECT_DIR$/web/result.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/implementation/ImplAdmin.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/implementation/ImplOperator.java" />
@@ -236,8 +273,15 @@
         <option value="$PROJECT_DIR$/src/main/java/user/profile/implementation/ImplOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/factory/UserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/user/profile/implementation/ImplAdmin.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/model/validation/UserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/factory/UserFactory.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xsd" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/beans.xml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/index.xhtml" />
       </list>
     </option>
   </component>
@@ -250,8 +294,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -312,12 +356,56 @@
             <path>
               <item name="serversiderecipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="serversiderecipe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serverside_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serversiderecipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serversiderecipe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serverside_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serversiderecipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serversiderecipe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serverside_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+              <item name="implementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serversiderecipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serversiderecipe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serverside_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serversiderecipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serversiderecipe" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serversiderecipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="serversiderecipe" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serversiderecipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serversiderecipe" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,7 +417,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549468143236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549483725344" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -352,7 +440,7 @@
   <component name="RunManager">
     <configuration name="Unnamed" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/serversiderecipe_war_exploded/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="serversiderecipe:war exploded">
           <settings />
@@ -569,12 +657,21 @@
       <option name="presentableId" value="Default" />
       <updated>1549378284028</updated>
       <workItem from="1549378287834" duration="4937000" />
-      <workItem from="1549397791788" duration="7710000" />
+      <workItem from="1549397791788" duration="12218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12647000" />
+    <option name="totallyTimeSpent" value="17155000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -592,14 +689,14 @@
       <window_info anchor="bottom" id="Messages" weight="0.3291815" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5177936" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.702847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3291815" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -718,39 +815,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/profile/ProfileType.java">
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/factory;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/model;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/profile;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/service;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/factory;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/model;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/profile;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/service;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="460.0" y="255.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="460.0" y="255.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/factory;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/model;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/profile;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/profile/implementation;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/service;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/factory;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/model;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/profile;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/profile/implementation;C:/Users/victor.sahin/GitHub/JavaStuffs/serversiderecipe/src/main/java/net/codingstuffs/java/serverside_recipe/service;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="460.0" y="255.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/net.codingstuffs.java.serverside_recipe">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>net.codingstuffs.java.serverside_recipe</OriginalElement>
+          <nodes>
+            <node x="" y="">net.codingstuffs.java.serverside_recipe.profile</node>
+            <node x="" y="">net.codingstuffs.java.serverside_recipe.factory</node>
+            <node x="" y="">net.codingstuffs.java.serverside_recipe.model</node>
+            <node x="" y="">net.codingstuffs.java.serverside_recipe.service</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="137.5" y="51.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/factory/UserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="187">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/model/validation/UserValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="method#getUser#0;class#UserService#0" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/profile/implementation/ImplAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -767,34 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/profile/UserProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/profile/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -805,34 +985,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/profile/UserProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/profile/ProfileType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/codingstuffs/java/serverside_recipe/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#getUser#0;class#UserService#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
