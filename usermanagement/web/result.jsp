@@ -1,6 +1,6 @@
 <%--
   Created by IntelliJ IDEA.
-  net.codingstuffs.java.serverside_recipe.user.net.codingstuffs.java.serverside_recipe.user: victor.sahin
+  net.codingstuffs.java.user_management.user.net.codingstuffs.java.user_management.user: victor.sahin
   Date: 2/5/2019
   Time: 3:51 PM
   To change this template use File | Settings | File Templates.

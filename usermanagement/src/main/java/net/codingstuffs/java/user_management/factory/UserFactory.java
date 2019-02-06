@@ -1,9 +1,9 @@
-package net.codingstuffs.java.serverside_recipe.factory;
+package net.codingstuffs.java.user_management.factory;
 
 import java.io.Serializable;
 import java.time.LocalDate;
 import javax.ws.rs.Produces;
-import net.codingstuffs.java.serverside_recipe.model.User;
+import net.codingstuffs.java.user_management.model.User;
 
 public class UserFactory implements Serializable {
 

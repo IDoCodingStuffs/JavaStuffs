@@ -1,4 +1,4 @@
-package net.codingstuffs.java.serverside_recipe.profile;
+package net.codingstuffs.java.user_management.profile;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

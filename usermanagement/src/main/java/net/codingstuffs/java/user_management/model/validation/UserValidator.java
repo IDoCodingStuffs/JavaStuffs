@@ -1,4 +1,4 @@
-package net.codingstuffs.java.serverside_recipe.model.validation;
+package net.codingstuffs.java.user_management.model.validation;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;

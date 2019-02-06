@@ -1,4 +1,4 @@
-package net.codingstuffs.java.serverside_recipe.model;
+package net.codingstuffs.java.user_management.model;
 
 import java.io.Serializable;
 import java.time.LocalDate;
