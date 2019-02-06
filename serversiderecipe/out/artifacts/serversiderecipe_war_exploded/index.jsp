@@ -1,6 +1,6 @@
 <%--
   Created by IntelliJ IDEA.
-  user.user: victor.sahin
+  net.codingstuffs.java.serverside_recipe.user.net.codingstuffs.java.serverside_recipe.user: victor.sahin
   Date: 2/5/2019
   Time: 3:13 PM
   To change this template use File | Settings | File Templates.
@@ -11,12 +11,12 @@
     <title>Hello!</title>
   </head>
   <body>
-  <a href="http://localhost:8080/webresources/userservice/getUser">getUser</a>
+  <a href="http://localhost:8080/serversiderecipe_war_exploded/webresources/userservice/getUser">getUser</a>
   <br>
-  <a href="http://localhost:8080/webresources/userservice/getProfileAdmin">getProfileAdmin</a>
+  <a href="http://localhost:8080/serversiderecipe_war_exploded/webresources/userservice/getProfileAdmin">getProfileAdmin</a>
   <br>
-  <a href="http://localhost:8080/webresources/userservice/getProfileOperator">getProfileOperator</a>
+  <a href="http://localhost:8080/serversiderecipe_war_exploded/webresources/userservice/getProfileOperator">getProfileOperator</a>
   <br>
-  <a href="http://localhost:8080/webresources/userservice/getProfileDefault">getProfileDefault</a>
+  <a href="http://localhost:8080/serversiderecipe_war_exploded/webresources/userservice/getProfileDefault">getProfileDefault</a>
   </body>
 </html>
