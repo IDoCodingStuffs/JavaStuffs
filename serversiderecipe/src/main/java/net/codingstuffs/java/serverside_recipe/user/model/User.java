@@ -1,8 +1,15 @@
-import java.io.Serializable;
+package net.codingstuffs.java.serverside_recipe.user.model;
 
+import java.io.Serializable;
+import javax.enterprise.inject.Model;
+
+@Model
 public class User implements Serializable {
   private String name;
   private String email;
+
+  public User(){
+  }
 
   public User(String name, String email) {
     this.name = name;

@@ -1,3 +1,5 @@
+package net.codingstuffs.java.serverside_recipe.user.service;
+
 import java.io.IOException;
 import javax.enterprise.event.Event;
 import javax.enterprise.event.Observes;
@@ -11,6 +13,10 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
+import net.codingstuffs.java.serverside_recipe.user.model.User;
+import net.codingstuffs.java.serverside_recipe.user.profile.Profile;
+import net.codingstuffs.java.serverside_recipe.user.profile.ProfileType;
+import net.codingstuffs.java.serverside_recipe.user.profile.UserProfile;
 
 @Path("userservice/")
 @RequestScoped

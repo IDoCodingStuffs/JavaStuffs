@@ -6,8 +6,10 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="serversiderecipe" />
+          <element id="module-output" name="serverside-recipe" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="serverside-recipe/web/Web" />
     </root>
   </artifact>
 </component>

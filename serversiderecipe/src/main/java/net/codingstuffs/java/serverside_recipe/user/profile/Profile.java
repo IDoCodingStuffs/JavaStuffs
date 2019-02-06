@@ -1,3 +1,5 @@
+package net.codingstuffs.java.serverside_recipe.user.profile;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
